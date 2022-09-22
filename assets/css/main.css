@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -31,11 +32,14 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color:black;
+
 }
 
 ol, ul {
 	list-style: none;
 }
+
 
 blockquote, q {
 	quotes: none;
@@ -53,6 +57,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	background-color:black;
 }
 
 mark {
@@ -80,18 +85,23 @@ input, select, textarea {
 
 	body {
 		-ms-overflow-style: scrollbar;
+		background-color:black;
 	}
 
 	@media screen and (max-width: 480px) {
 
 		html, body {
 			min-width: 320px;
+			background-color:black;
+
 		}
 
 	}
 
 	html {
 		box-sizing: border-box;
+		background-color:black;
+
 	}
 
 	*, *:before, *:after {
@@ -99,7 +109,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background-color:blue;
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2323,7 +2334,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 70%;
 		}
 
 			.image.left img, .image.right img {
@@ -3166,7 +3177,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: white;
 	}
 
 		#footer > .inner {
